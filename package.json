@@ -1,0 +1,44 @@
+{
+  "name": "licnost",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "db:migrate": "tsx database/scripts/migrate.ts",
+    "db:seed": "tsx database/scripts/seed.ts",
+    "outbox:process": "tsx server/scripts/process-outbox.ts"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.9.0"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@vueuse/nuxt": "^13.9.0",
+    "libphonenumber-js": "^1.13.11",
+    "nuxt": "^4.0.0",
+    "pg": "^8.16.0",
+    "resend": "^6.22.0",
+    "stripe": "^22.5.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.7.0",
+    "@nuxt/test-utils": "^3.19.2",
+    "@types/node": "^22.15.30",
+    "@types/pg": "^8.15.5",
+    "eslint": "^10.9.0",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4",
+    "vue-tsc": "^3.3.11"
+  }
+}

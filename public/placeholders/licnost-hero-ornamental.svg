@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-labelledby="title desc">
+  <title id="title">Ličnost ornamental collection placeholder</title>
+  <desc id="desc">Abstract textile-inspired composition in heritage red, cream and deep blue.</desc>
+  <defs>
+    <pattern id="grain" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M0 40 40 0l40 40-40 40L0 40Z" fill="none" stroke="#172038" stroke-opacity=".06"/></pattern>
+    <pattern id="stitch" width="72" height="36" patternUnits="userSpaceOnUse"><path d="m0 18 18-15 18 15 18-15 18 15-18 15-18-15-18 15L0 18Z" fill="none" stroke="#f4eee2" stroke-width="2"/><circle cx="36" cy="18" r="3" fill="#c5a261"/></pattern>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7ddcc"/><stop offset="1" stop-color="#cfc0a9"/></linearGradient>
+  </defs>
+  <rect width="900" height="1125" fill="url(#cloth)"/>
+  <rect width="900" height="1125" fill="url(#grain)"/>
+  <path d="M0 0h250l315 1125H310L0 230V0Z" fill="#a62532"/>
+  <path d="M650 0h250v895L590 0h60Z" fill="#203d70"/>
+  <path d="M260 0h90l310 1125h-90L260 0Z" fill="#f5efe3" fill-opacity=".92"/>
+  <rect y="112" width="900" height="72" fill="#172038"/>
+  <rect y="130" width="900" height="36" fill="url(#stitch)"/>
+  <rect y="912" width="900" height="88" fill="#a62532"/>
+  <rect y="938" width="900" height="36" fill="url(#stitch)"/>
+  <g transform="translate(450 540)" fill="none" stroke="#f5efe3" stroke-width="5" opacity=".95">
+    <path d="M0-210 62-68l150 68L62 68 0 210-62 68-212 0l150-68L0-210Z"/>
+    <path d="m0-118 35 83 83 35-83 35-35 83-35-83-83-35 83-35L0-118Z"/>
+    <circle r="34" stroke="#c5a261"/>
+    <circle r="13" fill="#f5efe3" stroke="none"/>
+  </g>
+  <g fill="#172038" font-family="Georgia,serif" text-anchor="middle">
+    <text x="450" y="75" font-size="22" letter-spacing="12">LIČNOST</text>
+    <text x="450" y="1060" font-size="15" letter-spacing="8">FORMA · DUŠA · TRAG</text>
+  </g>
+</svg>

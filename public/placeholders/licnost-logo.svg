@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-labelledby="title desc">
+  <title id="title">Ličnost logo placeholder</title>
+  <desc id="desc">Modern red, white and blue Ličnost wordmark placeholder.</desc>
+  <rect width="640" height="180" rx="28" fill="#f7f5f0"/>
+  <path d="M40 42h54v96H40z" fill="#d71920"/>
+  <path d="M94 42h54v96H94z" fill="#fff"/>
+  <path d="M148 42h54v96h-54z" fill="#174ea6"/>
+  <path d="M225 48h8v84h-8zM253 48h12l31 58V48h8v84h-11l-32-60v60h-8zM326 48h8v84h-8zM355 48h45v8h-37v28h34v8h-34v32h38v8h-46zM420 48h8v76h38v8h-46zM482 48h8v84h-8zM514 48h50v8h-42v27h38v8h-38v33h42v8h-50z" fill="#171717"/>
+</svg>
